@@ -39,3 +39,8 @@ app.get('/certification', (req, res, next) => {
 	res.sendfile("assets/certifications.json");
   });
   
+
+  app.get('/interest', (req, res, next) => {
+	res.sendfile("assets/interest.json");
+  });
+  
