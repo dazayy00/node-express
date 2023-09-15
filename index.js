@@ -20,3 +20,9 @@ app.get('/header', (req, res, next) => {
 app.listen(port,  () => 
 	console.log('listening on port ' + port
 ));
+
+
+
+app.get('/work', (req, res, next) => {
+	res.sendfile("assets/work.json");
+  });
