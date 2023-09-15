@@ -33,3 +33,9 @@ app.get('/skills', (req, res, next) => {
 	res.sendfile("assets/skills.json");
   });
   
+  
+   
+app.get('/certification', (req, res, next) => {
+	res.sendfile("assets/certifications.json");
+  });
+  
